@@ -18,7 +18,8 @@ titanic.addEventListener("click", function(event) {
 }
  let i;
  for (i=0; i < movies.Titanic.reviews.length; i++) {
-   document.getElementById("")
+   document.getElementById("reviews").innerHTML += movies.Titanic.reviews[i].username + ":";
+   document.getElementById("review").innerHTML =+ movies.Titanic.reviews[i]
  }
   
 })
