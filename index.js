@@ -10,6 +10,12 @@ titanic.addEventListener("click", function(event) {
   document.getElementById("poster").src=movies["Titanic"]["poster"]
   document.getElementById("audienceScore").innerHTML=movies["Titanic"]["audienceScore"]
   document.getElementById("description").innerHTML=movies["Titanic"]["description"]
+  
+  let i;
+  for (i=0; i < cars.length, i++){
+    text += cars[i] + "<br>";
+  }
+  
 })
   
 
