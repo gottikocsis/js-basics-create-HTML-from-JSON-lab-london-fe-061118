@@ -16,10 +16,10 @@ titanic.addEventListener("click", function(event) {
     document.getElementById("cast").innerHTML += movies.Titanic.cast[i].role + "<br>" + "as" + "<br>";
     document.getElementById("cast").innerHTML += movies.Titanic.cast[i].actor + "<br>";
 }
- let i;
- for (i=0; i < movies.Titanic.reviews.length; i++) {
-   document.getElementById("reviews").innerHTML += movies.Titanic.reviews[i].username + ":";
-   document.getElementById("review").innerHTML =+ movies.Titanic.reviews[i]
+ let r;
+ for (r=0; r < movies.Titanic.reviews.length; r++) {
+   document.getElementById("reviews").innerHTML += movies.Titanic.reviews[r].username + ":";
+   document.getElementById("review").innerHTML =+ movies.Titanic.reviews[r].content +"<br>";
  }
   
 })
