@@ -13,7 +13,7 @@ titanic.addEventListener("click", function(event) {
   
   let i;
   for (i = 0; i < movies.Titanic.cast.length; i++) { 
-    document.getElementById("cast").innerHTML=movies.Titanic.cast[i] + "<br>";
+    document.getElementById("cast").innerHTML=movies.Titanic.cast[i].role + "<br>";
 }
   
 })
