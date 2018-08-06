@@ -11,7 +11,7 @@ titanic.addEventListener("click", function(event) {
   document.getElementById("audienceScore").innerHTML=movies["Titanic"]["audienceScore"]
   document.getElementById("description").innerHTML=movies["Titanic"]["description"]
   
- /
+ 
   
 })
   
