@@ -16,6 +16,8 @@ titanic.addEventListener("click", function(event) {
     document.getElementById("cast").innerHTML += movies.Titanic.cast[i].role + "<br>" + "as" + "<br>";
     document.getElementById("cast").innerHTML += movies.Titanic.cast[i].actor + "<br>";
 }
+ let i;
+ for (i=0; i < movies.Titanic.rew)
   
 })
   
